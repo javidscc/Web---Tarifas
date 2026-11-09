@@ -1,1 +1,155 @@
-pagina web de javi para tarifas eléctricas
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f4">
+  <meta name="description" content="Energía clara, tarifas sencillas y soluciones pensadas para ti.">
+  <title>Brújula Energía | Tarifas claras para cada día</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Brújula Energía, inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+          <path d="M25.8 12.5 22 22l-9.8 5.5 3.8-9.5 9.8-5.5Z" fill="currentColor"/>
+          <circle cx="20" cy="20" r="2" fill="#F5F7F4"/>
+        </svg>
+      </span>
+      <span class="brand-name">brújula<span>energía</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#tarifas">Tarifas</a>
+      <a href="#nosotros">Quiénes somos</a>
+      <a class="nav-contact" href="mailto:hola@brujulaenergia.es">Hablemos <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="nosotros">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Energía con sentido</p>
+        <h1>Tu energía,<br>en <span>buenas manos.</span></h1>
+        <p class="hero-description">En Brújula Energía hacemos fácil elegir. Te ayudamos a encontrar una tarifa transparente, adaptada a tu forma de consumir y sin sorpresas.</p>
+        <a class="button button-dark" href="#tarifas">Encuentra tu tarifa <span aria-hidden="true">↓</span></a>
+        <div class="hero-note">
+          <span class="note-check" aria-hidden="true">✓</span>
+          <p>Precios claros. Atención cercana.<br><strong>Así de sencillo.</strong></p>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración de energía limpia y naturaleza">
+        <div class="art-sun"></div>
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-hill hill-back"></div>
+        <div class="art-hill hill-front"></div>
+        <div class="art-spark spark-one">✳</div>
+        <div class="art-spark spark-two">✳</div>
+        <div class="art-caption"><span class="caption-icon">↗</span> Energía más sencilla,<br>cada día.</div>
+        <div class="art-label">01 / 03 <span></span> HECHA PARA TI</div>
+      </div>
+    </section>
+
+    <section class="tariffs" id="tarifas">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Encuentra la tuya</p>
+          <h2>Una tarifa para cada <span>manera de vivir.</span></h2>
+        </div>
+        <p class="section-intro">Elige la opción que mejor encaja contigo. Sin letra pequeña y con toda la información sobre la mesa.</p>
+      </div>
+
+      <div class="tariff-grid">
+        <article class="tariff-card">
+          <div class="card-top">
+            <span class="product-icon icon-sun" aria-hidden="true">☼</span>
+            <span class="card-index">01</span>
+          </div>
+          <p class="plan-type">PRECIO ESTABLE</p>
+          <h3>Plan Tranquilo</h3>
+          <p class="plan-description">El mismo precio de la energía a cualquier hora. Para olvidarte del reloj.</p>
+          <div class="price"><strong>0,145</strong><span>€/kWh</span></div>
+          <p class="price-caption">Precio de energía, impuestos no incluidos</p>
+          <div class="card-divider"></div>
+          <ul class="plan-details">
+            <li><span>Potencia punta</span><strong>0,095 €/kW día</strong></li>
+            <li><span>Potencia valle</span><strong>0,028 €/kW día</strong></li>
+            <li><span>Permanencia</span><strong>No</strong></li>
+          </ul>
+          <a class="button button-outline" href="mailto:hola@brujulaenergia.es?subject=Me%20interesa%20el%20Plan%20Tranquilo">Me interesa <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="tariff-card tariff-featured">
+          <div class="featured-label">LA MÁS ELEGIDA <span aria-hidden="true">✳</span></div>
+          <div class="card-top">
+            <span class="product-icon icon-clock" aria-hidden="true">◷</span>
+            <span class="card-index">02</span>
+          </div>
+          <p class="plan-type">DOS PERIODOS</p>
+          <h3>Plan a tu Ritmo</h3>
+          <p class="plan-description">Aprovecha las horas valle y paga menos cuando más te conviene.</p>
+          <div class="price"><strong>0,168</strong><span>€/kWh punta</span></div>
+          <div class="second-price"><strong>0,105 €/kWh</strong> en horario valle</div>
+          <p class="price-caption">Precio de energía, impuestos no incluidos</p>
+          <div class="card-divider"></div>
+          <ul class="plan-details">
+            <li><span>Potencia punta</span><strong>0,095 €/kW día</strong></li>
+            <li><span>Potencia valle</span><strong>0,028 €/kW día</strong></li>
+            <li><span>Permanencia</span><strong>No</strong></li>
+          </ul>
+          <a class="button button-lime" href="mailto:hola@brujulaenergia.es?subject=Me%20interesa%20el%20Plan%20a%20tu%20Ritmo">Me interesa <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="tariff-card">
+          <div class="card-top">
+            <span class="product-icon icon-leaf" aria-hidden="true">↗</span>
+            <span class="card-index">03</span>
+          </div>
+          <p class="plan-type">AUTOCONSUMO</p>
+          <h3>Plan Solar</h3>
+          <p class="plan-description">Saca partido a tus placas y compensa la energía que viertes a la red.</p>
+          <div class="price"><strong>0,125</strong><span>€/kWh</span></div>
+          <p class="price-caption">Precio de energía, impuestos no incluidos</p>
+          <div class="card-divider"></div>
+          <ul class="plan-details">
+            <li><span>Compensación excedentes</span><strong>0,07 €/kWh</strong></li>
+            <li><span>Potencia</span><strong>Desde 0,028 €/kW día</strong></li>
+            <li><span>Permanencia</span><strong>No</strong></li>
+          </ul>
+          <a class="button button-outline" href="mailto:hola@brujulaenergia.es?subject=Me%20interesa%20el%20Plan%20Solar">Me interesa <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+      <p class="tariff-disclaimer">Tarifas e importes de ejemplo, pendientes de personalizar. Los precios finales pueden variar según condiciones, impuestos y peajes aplicables.</p>
+    </section>
+
+    <section class="closing">
+      <div class="closing-mark" aria-hidden="true">✳</div>
+      <div>
+        <p class="eyebrow">¿Lo vemos juntos?</p>
+        <h2>Elegir bien empieza<br>con una conversación.</h2>
+      </div>
+      <a class="button button-dark" href="mailto:hola@brujulaenergia.es">Cuéntanos qué necesitas <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="#" aria-label="Brújula Energía, inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+          <path d="M25.8 12.5 22 22l-9.8 5.5 3.8-9.5 9.8-5.5Z" fill="currentColor"/>
+          <circle cx="20" cy="20" r="2" fill="#18251F"/>
+        </svg>
+      </span>
+      <span class="brand-name">brújula<span>energía</span></span>
+    </a>
+    <p>Un rumbo más claro para tu energía.</p>
+    <span class="copyright">© 2025 Brújula Energía</span>
+  </footer>
+</body>
+</html>
